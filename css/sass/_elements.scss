@@ -1,0 +1,115 @@
+.info{
+	background-color: transparent;
+	border:1px solid #707070;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+#info-31,#info-32{
+	width: 450px;
+	height: 115px;
+	position: absolute;
+	left: 50px;
+
+
+
+		p{
+		font-size: 25px;
+		
+		color: white;
+		text-decoration: none;
+		margin:0 auto 30px auto;
+
+	}
+
+}
+
+#info-31{
+	top: 50px;
+	margin-bottom: 50px;
+	
+
+}
+#info-32{
+	top: 250px;
+}
+
+#sex,#carrier{
+	width: 50%;
+	display: inline;
+}
+#group{
+	float: left;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+
+}
+#question{
+	float: right;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	p{
+		margin: 30px auto 0 0;
+		width: 33%;
+		display: inline;
+		
+	}
+}
+
+#fam,.switcher,#man{
+	height: 100%;
+	width: 33%;
+}
+#fam{
+	background-image: url("../img/female2.png");
+	background-size: auto 65%;
+	background-repeat: no-repeat;
+	background-position: top left;
+
+
+}
+
+#man{
+	background-image: url("../img/man1.png");
+	background-size: auto 65%;
+	background-repeat: no-repeat;
+	background-position: top center;
+
+
+}
+
+.background{
+	width: 80%;
+	height: 23%;
+	margin: 40% auto 0 auto;
+	background-color: #006ab3;
+	border-radius: 20px;
+	&:hover{
+		cursor:pointer;
+	}
+	.circle{
+		background-color: #e9e9ea;
+		border-radius: 50%;
+		float: right;
+		height: 63%;
+		width: 25%;
+		margin: 5px 6px auto auto;
+		-webkit-transition: box-shadow 0.1s ease;
+		-o-transition: box-shadow 0.1s ease;
+		transition: box-shadow 0.1s ease;
+		&:hover{
+			cursor:pointer;
+			box-shadow: inset 1px 1px 5px black;
+		}
+
+	}
+}

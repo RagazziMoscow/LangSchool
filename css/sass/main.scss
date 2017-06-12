@@ -1,0 +1,157 @@
+/* Genearl */
+
+
+
+
+
+
+html, body{
+	height: 1100px;
+	width: 100%;
+	min-width: 900px;
+	min-height: 900px;
+	background-color: black;
+	font-family: "MyriadSetPro";
+	color: white;
+}
+
+/* Genearl */
+
+#wrapper{
+	width: inherit;
+	height: inherit;
+	margin: 0 auto;
+	position: relative;
+	#picture{
+		height: inherit;
+		width: inherit;
+		background-image: url("../img/1.png");
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		
+		#img-overlay{
+			height: inherit;
+			width: inherit;
+			background: rgba(0,0,0,0.82);
+			box-shadow: inset -1em 10em 70px 60px rgba(0, 0, 0, 1),
+			inset 0 -10em 70px 100px rgba(0, 0, 0, 1);
+		}
+	}
+		
+		#top{
+			width: inherit;
+			height: 10%;
+			position: absolute;
+			top: 0;
+			#logo,#lang{
+				width: 50%;
+			}
+			#logo{
+				height: 60px;
+				width: 350px;
+				position: absolute;
+				bottom: -45%;
+				left: 70px;
+
+				#pict{
+				
+				}
+				#title{
+					float: right;
+					margin: 27px 30px 0 0;
+
+				}
+			}
+			#lang{
+
+				height: 40px;
+				width: 130px;
+				position: absolute;
+				bottom: -45%;
+				right: 70px;
+			p{
+				margin: 0;
+				display: inline;
+				color: white;
+				font-size: 18px;
+				
+				a{
+					color: inherit;
+					text-decoration: none;
+				}
+			}
+			.select{
+				margin-right: 14px;
+				margin-left: 5px;
+				float: left;
+			}
+			.list{
+				margin-right: 2px;
+			}
+			img{
+				display: inline;
+				margin-top: 5px;
+				float: right;
+
+			}
+			.link{
+
+				float: right;
+				margin-top: 5px;
+			}
+			}
+		}
+		
+		#middle{
+			width: inherit;
+		}
+		#bottom{
+			width: inherit;
+			height: 10%;
+			position: absolute;
+			bottom: 0;
+			#contacts{
+				position: absolute;
+				bottom: 105%;
+				left:70px;
+				width: 160px;
+				height: 55px;
+				p{
+					color: white;
+					font-size: 20px;
+					float: right;
+					margin: 0;
+				}
+				#email{
+					display: block;
+					margin: 10px 0;
+					p{
+						margin: -3px 35px 0 0;
+						font-size: 18px;
+					}
+				}
+			}
+			#navbar{
+				position: absolute;
+				bottom: 105%;
+				right: 70px;
+				ul{
+					list-style: none;
+					line-height: 28px;
+				}
+				li{
+					text-align: right;
+					a{
+						
+
+						color: white;
+						text-decoration: none;
+						font-size: 18px;
+					}
+
+				}
+			}
+		}
+	
+}

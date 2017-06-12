@@ -1,0 +1,21 @@
+/*Fonts*/
+
+
+@font-face {
+    font-family: "MyriadSetPro";
+    src: url("../fonts/myriad-set-pro_thin.eot");
+    src: url("../fonts/myriad-set-pro_thin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/myriad-set-pro_thin.woff") format("woff"),
+    url("../fonts/myriad-set-pro_thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: "MyriadSetPro";
+	src: local("MyriadSetPro"),
+	url("../fonts/myriad-set-pro_thin.ttf");
+}
+
+
+

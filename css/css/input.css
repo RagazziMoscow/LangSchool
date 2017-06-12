@@ -1,0 +1,37 @@
+/*
+Error: Invalid CSS after "...ort "normalize"": expected selector or at-rule, was "@import "fonts" ;"
+        on line 3 of sass/input.scss
+
+1: @import "normalize"
+2: 
+3: @import "fonts" ;
+4: 
+5: 
+6: 
+7: 
+8: @import "main";
+
+Backtrace:
+sass/input.scss:3
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1162:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1098:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:43:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:403:in `_to_tree'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:378:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:295:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:293:in `watch'
+/usr/lib/ruby/vendor_ruby/sass/plugin.rb:108:in `method_missing'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:380:in `watch_or_update'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'
+/usr/bin/sass:8:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ort \"normalize\"\": expected selector or at-rule, was \"@import \"fonts\" ;\"\A         on line 3 of sass/input.scss\A \A 1: @import \"normalize\"\A 2: \A 3: @import \"fonts\" ;\A 4: \A 5: \A 6: \A 7: \A 8: @import \"main\";"; }

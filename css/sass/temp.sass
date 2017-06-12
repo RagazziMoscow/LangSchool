@@ -1,0 +1,89 @@
+@import "normalize" ;
+
+
+
+@font-face {
+    font-family: "MyriadSetPro";
+    src: url("../fonts/myriad-set-pro_thin.eot");
+    src: url("../fonts/myriad-set-pro_thin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/myriad-set-pro_thin.woff") format("woff"),
+    url("../fonts/myriad-set-pro_thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+body{
+	width: 100%;
+	height: 100%;
+	font-family: MyriadSetPro ;
+}
+
+#header{
+	width: 100%;
+	height: 340px;
+	background-image: url("../img/1.png");
+	background-size: 100% auto ;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter:blur(5px);
+	filter: blur(2px);
+
+}
+#img-overlay{
+	height: 100% ;
+	width: 100% ;
+	background-color: black ;
+	opacity: 0.7 ;
+}
+
+#content{
+	width: 100% ;
+	background-color: white ;
+	h1{
+		margin: 100px 25% ;
+		text-align: center;
+		font-size: 25px ;
+		color:black ;
+
+	}
+}
+
+#contacts{
+	position: fixed; ;
+	top: 100px ;
+	left: 150px ;
+	width: 160px ;
+	height: 55px ;
+	p{
+		color: white ;
+		font-size: 20px ;
+		float: right ;
+		margin: 0;
+	}
+}
+
+#lang{
+	width: 130px ;
+	height: 40px ;
+	position: fixed ;
+	top: 100px ;
+	right: 150px ;
+				p{
+				margin: 0;
+				display: inline;
+				color: white;
+				font-size: 18px;
+				
+				a{
+					color: inherit;
+					text-decoration: none;
+				}
+			}
+}
+
+
+
+
